@@ -34,3 +34,32 @@ header {
   font-size: 18px;
   color: #424242;
 }
+
+/* header infos */
+.header-infos {
+  text-align: center;
+  padding: 100px 150px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+  margin-bottom: 30px;
+}
+.header-detail {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.btn-primary {
+  width: 180px;
+  height: 64px;
+  background: #ff900e;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
