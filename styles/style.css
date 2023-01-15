@@ -176,6 +176,10 @@ header {
   gap: 10px;
   justify-content: center;
 }
+.fact:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
 .fact img {
   width: 45.22px;
   height: 45.22px;
