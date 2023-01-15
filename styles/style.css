@@ -92,3 +92,57 @@ header {
 .quick-list-title {
   margin-bottom: 30px;
 }
+
+/* Features you will love section */
+.features-you-will-love {
+  margin: 100px 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 30px;
+}
+.section-title {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feature {
+  width: 450px;
+  height: 110px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  align-items: center;
+}
+.feature-title {
+  color: #131313;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.feature-right {
+  position: relative;
+}
+.architect {
+  /* padding-top: 100px; */
+  width: 95%;
+  height: 900px;
+  float: right;
+}
+.btn-secondary {
+  background: #ff900e;
+  border-radius: 8px;
+  width: 342px;
+  height: 200px;
+  border: 0;
+  color: #ffffff;
+  position: absolute;
+  top: 800px;
+}
