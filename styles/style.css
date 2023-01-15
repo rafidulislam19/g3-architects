@@ -176,9 +176,11 @@ header {
   gap: 10px;
   justify-content: center;
 }
+/* animation */
 .fact:hover {
   transform: scale(1.2);
   transition: 1s;
+  cursor: pointer;
 }
 .fact img {
   width: 45.22px;
@@ -222,4 +224,102 @@ header {
   color: #424242;
   font-weight: 400;
   font-size: 20px;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 576px) {
+  header {
+    height: 1100px;
+    padding: 50px 30px;
+    margin-bottom: 50px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-title {
+    font-size: 30px;
+  }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    font-size: 16px;
+  }
+  .header-infos {
+    text-align: center;
+    padding: 100px 30px;
+  }
+  .header-title {
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .header-img img {
+    height: 300px;
+  }
+  .quick-list {
+    margin: 50px 30px;
+    flex-direction: column;
+  }
+  .quick-list-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .features-you-will-love {
+    margin: 50px 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-title {
+    font-weight: 700;
+    font-size: 35px;
+    padding-left: 15px;
+  }
+  .feature {
+    width: 90%;
+    height: 150px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    align-items: center;
+  }
+  .architect {
+    width: 100%;
+    height: 850px;
+    text-align: center;
+  }
+  .btn-secondary {
+    width: 100%;
+  }
+  .some-facts {
+    margin: 200px 30px;
+  }
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fact {
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+  }
+  .our-sponsors {
+    margin: 100px 30px;
+  }
+  .sponsors {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    text-align: center;
+  }
+  .footer {
+    margin: 50px 30px;
+    text-align: center;
+    padding: 10px;
+  }
+  .footer-info {
+    font-weight: 200;
+    font-size: 15px;
+  }
 }
