@@ -52,6 +52,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 30px;
+  line-height: 26px;
 }
 .btn-primary {
   width: 180px;
@@ -145,4 +146,41 @@ header {
   color: #ffffff;
   position: absolute;
   top: 800px;
+}
+
+/* some facts section */
+.some-facts {
+  margin: 200px 200px;
+}
+.some-facts-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+.facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fact {
+  margin-top: 80px;
+  margin-left: 40px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.fact img {
+  width: 45.22px;
+  height: 45.22px;
+}
+.fact-title {
+  color: #424242;
+  font-weight: 600;
+  font-size: 45px;
 }
