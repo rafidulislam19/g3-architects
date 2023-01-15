@@ -203,3 +203,19 @@ header {
   width: 153.33px;
   height: 50px;
 }
+
+/* footer */
+.footer {
+  margin: 200px 200px;
+  background: #fff4e7;
+  border-radius: 8px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-info {
+  color: #424242;
+  font-weight: 400;
+  font-size: 20px;
+}
