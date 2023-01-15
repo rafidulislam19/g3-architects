@@ -132,9 +132,9 @@ header {
   position: relative;
 }
 .architect {
-  /* padding-top: 100px; */
+  padding-top: 50px;
   width: 95%;
-  height: 900px;
+  height: 850px;
   float: right;
 }
 .btn-secondary {
@@ -145,7 +145,7 @@ header {
   border: 0;
   color: #ffffff;
   position: absolute;
-  top: 800px;
+  top: 810px;
 }
 
 /* some facts section */
