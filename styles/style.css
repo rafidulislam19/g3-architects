@@ -152,7 +152,8 @@ header {
 .some-facts {
   margin: 200px 200px;
 }
-.some-facts-title {
+.some-facts-title,
+.sponsor-title {
   font-weight: 700;
   font-size: 45px;
   color: #131313;
@@ -164,7 +165,7 @@ header {
 }
 .fact {
   margin-top: 80px;
-  margin-left: 40px;
+  margin-left: 30px;
   width: 200px;
   height: 200px;
   border: 1px solid #ff900e;
@@ -183,4 +184,22 @@ header {
   color: #424242;
   font-weight: 600;
   font-size: 45px;
+}
+
+/* our sponsors section */
+.our-sponsors {
+  margin: 200px 200px;
+}
+.sponsor-info {
+  text-align: center;
+}
+.sponsors {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+.sponsor img {
+  width: 153.33px;
+  height: 50px;
 }
